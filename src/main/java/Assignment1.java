@@ -36,20 +36,20 @@ public class Assignment1 {
                
             
           
-
+             w.write("#A171 PRACTICUM");
+             w.write("\n");
+             w.write("###From 21/02/2018 To 20/08/2018");
+             w.write("\n");
             while (iterator.hasNext()) {
 
                 Row currentRow = iterator.next();
                 Iterator<Cell> cellIterator = currentRow.iterator();
-                 w.write("#A171 PRACTICUM");
-                 w.write("\n");
-                 w.write("###From 21/02/2018 To 20/08/2018");
-                 w.write("\n");
                 while (cellIterator.hasNext()) {
 
                     Cell currentCell = cellIterator.next();
                     String d = date.formatCellValue(currentCell);
-                    
+                   
+
                     System.out.print(d +"|");
                   
                     
