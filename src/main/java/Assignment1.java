@@ -83,7 +83,8 @@ public class Assignment1 {
 
                 Process p;
 
-                p = Runtime.getRuntime().exec("\"C:\\Program Files\\Git\\git-bash.exe\" --cd-to-home");
+                p = Runtime.getRuntime().exec("\"C:\\Program Files\\Git\\git-bash.exe\" --cd=C:\\Users\\User\\240898-STIW3054-A172-A1");
+                
 
             } catch (Exception e) {
             }
