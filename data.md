@@ -1,5 +1,3 @@
-#A171 PRACTICUM
-###From 21/02/2018 To 20/08/2018
 No.|Matric No.|Name|Supervisor |
 ---|---|---|---|
 1|218780|SAFFREE MA|Dr Amran Ahmad|
@@ -85,7 +83,6 @@ No.|Matric No.|Name|Supervisor |
 81|235023|NOOR IZZATI BINTI MOHD ZAINUDDIN|Prof. Dr. Zulikha Jamaluddin|
 82|235092|NURSUHADA BINTI MD SABERI|Mawarny Binti Md. Rejab|
 83|234051|MUHAMMAD IKMAL HAFIZ BIN MOHD ZAIDI|Mawarny Binti Md. Rejab|
-
 
 
 
