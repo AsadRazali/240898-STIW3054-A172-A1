@@ -33,13 +33,7 @@ public class Assignment1 {
             
             File f = new File(FILE_OUT);
             w = new BufferedWriter(new FileWriter(f));
-               
-            
-          
-             w.write("#A171 PRACTICUM");
-             w.write("\n");
-             w.write("###From 21/02/2018 To 20/08/2018");
-             w.write("\n");
+       
             while (iterator.hasNext()) {
 
                 Row currentRow = iterator.next();
