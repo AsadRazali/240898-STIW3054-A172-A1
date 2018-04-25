@@ -1,25 +1,29 @@
-import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.apache.poi.ss.usermodel.DataFormatter;
+
+package com.mycompany.rtpa1;
+
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.Writer;
-
 import java.util.Iterator;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Assignment1 {
-    
-    
-     private static final String FILE_IN = "C:\\Users\\User\\Documents\\NetBeansProjects\\Assignment1\\Studentsupervisorlist.xlsx";
-     private static final String FILE_OUT = "C:\\Users\\User\\Documents\\NetBeansProjects\\Assignment1\\data.md";
-    public static void run()
+public interface readwrite {
+        String FILE_IN = "C:\\Users\\User\\240898-STIW3054-A172-A1\\RTPA1\\Studentsupervisorlist.xlsx";
+        String FILE_OUT = "C:\\Users\\User\\240898-STIW3054-A172-A1\\RTPA1\\data.md";
+     
+       public static void run()
     {
            Writer w = null;
-          boolean lbreak = true;
+           boolean lbreak = true;
              
            
         try {
@@ -77,23 +81,5 @@ public class Assignment1 {
             e.printStackTrace();             
         } 
     }
-     public static void open()
-     {
-         try {
-
-                Process p;
-
-                p = Runtime.getRuntime().exec("\"C:\\Program Files\\Git\\git-bash.exe\" --cd=C:\\Users\\User\\240898-STIW3054-A172-A1");
-                
-
-            } catch (Exception e) {
-            }
-     }
-      public static void main(String[] args) {
-        
-        run();
-        open();
-        
-    }
-
+    
 }

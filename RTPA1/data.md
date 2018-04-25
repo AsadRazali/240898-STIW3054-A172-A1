@@ -1,9 +1,11 @@
-No.|Matric No.|Name|Supervisor |
+#A171 PRACTICUM
+###From 21/02/2018 To 20/08/2018
+#    |Matric #|Name                              |Supervisor|
 ---|---|---|---|
-1|218780|SAFFREE MA|Dr Amran Ahmad|
-2|223607|WAN MEERA CHE AMI|Ahmad Tajudin Baharin|
-3|223859|ABDI FATAH ABUKAR AHMED|Rosmadi Bakar|
-4|224989|ADITYO HAMADI|Rosmadi Bakar|
+1|218780|SAFFREE MA                         |Dr Amran Ahmad|
+2|223607|WAN MEERA CHE AMI                  |Ahmad Tajudin Baharin|
+3|223859|ABDI FATAH ABUKAR AHMED           |Rosmadi Bakar|
+4|224989|ADITYO HAMADI                              |Rosmadi Bakar|
 5|227367|MUHAMAD AIMAN BIN MUHAMAD ZAWAWI|Dr. Rohaida Romli|
 6|228615|ABDIFATAH HUSSEIN HASSAN|Dr. Ishola Dada Muraina|
 7|230004|ODETA PEACE OGHENEVWARHO|Dr. Ishola Dada Muraina|
@@ -83,6 +85,3 @@ No.|Matric No.|Name|Supervisor |
 81|235023|NOOR IZZATI BINTI MOHD ZAINUDDIN|Prof. Dr. Zulikha Jamaluddin|
 82|235092|NURSUHADA BINTI MD SABERI|Mawarny Binti Md. Rejab|
 83|234051|MUHAMMAD IKMAL HAFIZ BIN MOHD ZAIDI|Mawarny Binti Md. Rejab|
-
-
-
